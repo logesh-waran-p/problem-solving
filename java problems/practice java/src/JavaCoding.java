@@ -39,7 +39,13 @@ public class JavaCoding {
         map.put(e1.name, e1.id);
         map.put(e2.name, e2.id);
         map.put(e3.name, e3.id);
-        System.out.println(map);
+//        System.out.println(map);
+        subStringReplace();
+    }
+
+    public static void subStringReplace(){
+        String s1 = "Balaji Hari";
+        System.out.println(s1.replace("ri", "ra"));
     }
 
     public static void missingValueInArrays(){
