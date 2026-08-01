@@ -45,7 +45,7 @@ public class JavaCoding {
     }
 
     public static void trimItStartAndEnd(){
-        String s1 = "   This is   a String     ";
+        String s1 = "   This is   a content     ";
         System.out.println("Before : [" + s1 + "]");
         int start = 0;
         int end = s1.length()-1;
