@@ -40,8 +40,32 @@ public class JavaCoding {
         map.put(e2.name, e2.id);
         map.put(e3.name, e3.id);
 //        System.out.println(map);
-        subStringReplace();
+//        subStringReplace();
+        trimItStartAndEnd();
     }
+
+    public static void trimItStartAndEnd(){
+        String s1 = "   This is   a String     ";
+        System.out.println("Before : [" + s1 + "]");
+        int start = 0;
+        int end = s1.length()-1;
+
+        while (start <= end && s1.charAt(start) == ' ') {
+            start++;
+        }
+        System.out.println("start value "+start);
+        // Find last non-space character
+        while (end >= start && s1.charAt(end) == ' ') {
+            System.out.println("end value "+end);
+            end--;
+        }
+        System.out.println("end value "+end);
+
+        System.out.println("After  : [" + s1.substring(start,end+1) + "]");
+    }
+
+
+
 
     public static void subStringReplace(){
         String s1 = "Balaji Hari";
