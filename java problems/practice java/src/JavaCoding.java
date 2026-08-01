@@ -41,10 +41,10 @@ public class JavaCoding {
         map.put(e3.name, e3.id);
 //        System.out.println(map);
 //        subStringReplace();
-        trimItStartAndEnd();
+        trimItStartAndEndString();
     }
 
-    public static void trimItStartAndEnd(){
+    public static void trimItStartAndEndString(){
         String s1 = "   This is   a Content     ";
         System.out.println("Before : [" + s1 + "]");
         int start = 0;
