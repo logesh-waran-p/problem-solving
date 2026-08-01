@@ -26,7 +26,9 @@ public class JavaCoding {
 //        linkedList();
 //        occuranceOfString();
 //        missingValueInArrays();
-        hashMapExample();
+//        hashMapExample();
+//        subStringReplace();
+        trimItStartAndEndString();
 
 
     }
@@ -39,9 +41,7 @@ public class JavaCoding {
         map.put(e1.name, e1.id);
         map.put(e2.name, e2.id);
         map.put(e3.name, e3.id);
-//        System.out.println(map);
-//        subStringReplace();
-        trimItStartAndEndString();
+        System.out.println(map);
     }
 
     public static void trimItStartAndEndString(){
